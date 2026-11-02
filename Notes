@@ -1,0 +1,22 @@
+Agentic AI System Design
+https://www.youtube.com/watch?v=Mv7eiQFQQ1E
+
+Scope & Assumptions
+	Scope - 
+      Who is the user and what problem are they having ?
+      What outcome are we trying to improve ?
+      Which part of this problem should AI handle ?
+      How much agency should the system have ?
+	Assumptions - Data, types of input, Operating Constraints, Risk of actions
+Architecture
+	KARC - Know, Act, Remember, Co-ordinate
+	Know -> 
+	Act -> Permissions, Blast Radius, Failure handling (Fallback policies), Trust Boundaries
+	Remember -> Memory - Working, Semantic, Episodic, Procedural
+	Co-ordinate -> 
+Observability
+	Log, Eval, Improve
+Production & Ops
+	Scale, Latency, Reliability, Freshness or latest, Security
+Optimization
+	Latency, Cost, Quality, Specific failure patterns
